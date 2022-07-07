@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    color: #109E97;
+    background: #FFFFFF;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 49px;
+    margin-top: 33px;
+    margin-bottom: 47px;
+}
+#navbar ul{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background: #109E97;
+}
+.navbar-list li{
+    padding: 20px 45px ;
+}
+.navbar-list a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* section -> hero*/
+.hero{
+    background-image: url(../images/paper_bg\ copy.jpg);
+}
+.hero-image-text{
+    
+    display: flex;
+    justify-content: center;
+}
+.restangle img{
+    margin-top: 117px;
+    margin-bottom: 120px;
+    width: 300px;
+    height: 391px;
+}
+.hero-text{
+    width: 30%;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    margin-left: 90px;
+}
+.hero-text p{
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+.hero-button{
+    background: #109E97;
+    border: 1px solid #109E97;
+    border-radius: 4px;
+    width: 148px;
+    height: 44px;
+    color: white;
+}
+.book-list-title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 32px;
+    margin: 50px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.book-list-collections{
+    border: 2px solid #916A6A;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 960px;
+    margin-bottom: 80px;
+    justify-content: space-evenly;
+}
+.book-item{
+    border: 1px solid #109E97;
+    font-family: 'Roboto', sans-serif;
+    margin: 15px 25px;
+}
+.book-item h5{
+    text-align: center;
+    color: #000000;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.book-item p{
+    text-align: center;
+    color: #0000EE;
+    margin-top: 10px;
+    margin-bottom: 32px
+}
+.book-item img{
+    width: 150px;
+    height: 227px;
+    margin: 31px 51px 11px 51px;
+}
+/* links */
+.links {
+    position: fixed;
+    right: 25px;
+    top: 200px;
+}
+.links a{
+    text-decoration: none;
+}
+.links i{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: teal;
+    color: white;
+    border-radius: 100px;
+    position: relative;
+    align-items: center;
+    font-size: 30px;
+}
+/* footer */
+.footer {
+    background: #109e97;
+    text-align: center;
+    padding: 35px 0px;
+    color: white;
+    border-top: 2px solid black;
+}
+
+  

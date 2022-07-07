@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+}
+.navbar-brand{
+    width: 500px;
+    text-align: center;
+}
+.collapse{
+    justify-content: flex-end;
+}
+.jumbotron{
+    background-image: url(../images/jumbotron.jpg);
+    background-size: cover;
+    padding: 100px 250px;
+    margin: 0 auto;
+}
+.corusel-image>img{
+    width: 100%;
+}
+.btn-primary{
+    background-color: orange;
+    border-color: orange;
+    color: black;
+}
+.footer-text{
+    padding: 20px;
+    margin: 0 auto;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+}  
+.row{
+    display: flex;
+} 
+.book-item img{
+    width: 150px;
+    height: 227px;
+}
+.book-item{
+    border: 1px solid rgb(187, 187, 187);
+    margin-bottom: 30px;
+    display: inline-block;
+    text-align: left;
+}
+.book-item h5, .book-item p, .book-item button{
+    margin: 15px auto 15px 15px;
+}
+.book-item > button{
+    border-radius: 4px;
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;
+}
+.book_table > h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.col-4{
+    text-align: center;
+}

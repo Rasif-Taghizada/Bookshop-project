@@ -1,0 +1,37 @@
+//Day1
+1). Git, əsasən proqramçılar tərəfindən istifadə edilən bir “version control sistemidir”.Lakin komputerimizdə olan hər hansı projectdə yazdığımız məqalə kitablarımızı hansısa local storage`da deyil, internet üzərində saxlamağımızı və idarə etməyimizi təmin edən bir versiya nəzarət sistemidir .
+2). Böyük projectlər üzərində işlədiyimiz zaman bir neçə nəfər eyni zamanda çalışdıgı üçün kodların birləşdirilməsi və ən son versiyanın müəyyənləşdirilməsi prosesi çox qarışıq və olduqca vaxt tələb edən prosesdir. Lakin Git vasitəsilə isə buna ehtiyac qalmır.Git əmirləri vasitəsi ilə rahatlıqla hamı öz üzərinə düşən işi yerinə yetirir. Daha sonra edilmiş işlər birləşdirilir.
+3). Github Layihələri saxlamaq üçün bir repo-dur. Burada istifadəçilər başqalarının proyektlərinə baxa və orada dəyişiklik edə bilərsiniz. Birdən çox insan bir layihə üzərində əməkdaşlıq etdikdə, düzəlişləri izləmək çətindir - kimin nəyi, nə vaxt və harada saxlandığını dəyişdirmək. GitHub repozitoriyaya göndərilən bütün dəyişiklikləri izləyərək bu problemi həll edir.
+4). Brauzer — sizin kompüterdə işləyən və İnternet-səhifələrin axtarışına və baxılmasına imkan yaradan bir proqramdır
+-Bu növ proqramlar İnternet şəbəkəsində səyahət etmək üçün istifadə olunan vasitələrdir. Brauzerlər vasitəsilə biz internet istifadəçiləri İnternet şəbəkəsində səhifədən-səhifəyə gəzişirik.
+-Brauzerlər onlayn və ofline rejimdə işləyə bilərlər. 
+-Siz istifadəçi olduğunuz halda kompüterinizdəki müştəri proqramı (brauzer) server adlanan şəbəkə qovşağına qoşulur və ona informasiya almaq üçün sorğu göndərir. Serverdəki proqram öz növbəsində bu informasiyanı sizə göndərir və növbəti sorğunu gözləyir. Belə iş rejiminə Online iş rejimi deyilir.
+-Çoxfunksiyalı bir proqram kimi brauzer avtonom rejimdə — İnternetə qoşulmadan HTML sənədlərə və GIF, JPG və ya JPEG formatlı şəkillərə baxmaq üçün istifadə olunur. Bu rejim Offline iş rejimi adlanır.
+
+5). Html teqləri veb səhifələrin hazırlamasında istifadə olunan işarələmə dilidir. Bu işarələmə dili ilə əsasən veb səhifələrin strukturu qurulur. Html özü 3 əsas teqdən ibarətdir(Html,Head,Body). Bu teqlər açılıb bağlanır və aralarında bizə lazım olan məlumatları yazırıq. Teq bağlanarkən "/" işarəsindən istifadə olunur.
+6). HTML elementləri əlavə məlumatların olduğu atributlara malikdir. HTML atributları ümumiyyətlə ad-dəyər (name-value) cütləri həmişə bir elementin açılış etiketində olur. Atribut adı, element haqqında hansı məlumat növü təqdim etdiyinizi bildirir və atribut dəyəri həqiqi məlumatdır.
+Məsələn, HTML sənədindəki bir çapa () elementi digər səhifələrə və ya səhifənin digər hissələrinə bağlantılar yaradır. Brauzerə keçidin bir istifadəçi göndərdiyini söyləmək üçün açılış etiketindəki href atributundan istifadə edirsiniz. Bir çox fərqli HTML atributu var, lakin əksəriyyəti yalnız müəyyən HTML elementləri üzərində işləyir.
+
+//Day2
+1). CSS (Cascading Style Sheets deməkdir) “Cascading Style Sheets” mənasını verən bir veb texnologiyasıdır. Bu veb texnologiya brauzerə veb saytın fərqli elementlərini göstərmək üçün bir üslub təqdim edən tamamlayıcı bir HTML dil mexanizmidir.
+CSS veb səhifənin şrifti, şrift ölçüsü, rəngi və ya elementlərinin düzülüşü ilə məşğul olur.
+2). Bir neçə müxtəlif növ seçicilər var:
+tipli seçicilər - müəyyən bir elementə uyğunlaşır
+sinif seçicilərinə uyğun bir siniflə uyğunluq elementləri
+ID seçiciləri - elementi müəyyən bir ID ilə uyğunlaşdırır
+nəsli seçicilər - müəyyən bir elementin nəvələri olan matç elementləri
+uşaq seçicilərinə uyğun elementdən bir uşaq olan eşleme elementləri
+universal seçicilər - hər elementə uyğunlaşır
+bitişik qardaş seçicilər-uyğun elementlər dərhal əvvəlcədən müəyyən bir elementdən əvvəl
+atribut seçicilərə uyğun elementləri və ya öznitelik dəyərinə uyğun elementlər
+Pseudo-class seçicilərə uyğun bir sözdə sinif ilə uyğunluq elementləri
+pseudo-element seçiciləri-xüsusi elementlər ilə uyğun elementlər
+
+//Day3 
+1). CSS Sıfırlamanın köməyi ilə brauzerlər arası üslub üslublarını təmin etmək üçün bu fərqi neytrallaşdıra bilərik.
+Məsələn, elementdən istifadə edirsiniz a sənədinizdə. Internet Explorer və Firefox kimi əksər brauzerlər link əlavə edir mavi rəng və altını çiz... Bununla belə, təsəvvür edin ki, beş ildən sonra kimsə yeni brauzer yaratmağa qərar verdi (gəlin onu UltraBrowser adlandıraq). Brauzer tərtibatçıları mavi rəngi bəyənmədilər və alt xəttdən qıcıqlandılar, buna görə də linkləri vurğulamaq qərarına gəldilər. qırmızı rəngdə və qalın... Bu əsasda element üçün əsas üslub dəyərini təyin etsəniz a onda onun UltraBrowser tərtibatçılarının onu göstərməyi üstün tutduqları kimi deyil, istədiyiniz kimi olacağına zəmanət verilir.
+2). üstünlükləri odur ki biz şəkildən istifadə etsək əgər o zaman onun üzərində dəyişiklik etməl alınmaycaq. Amma biz icon istifadə etsək həmin iconu istədiyimiz bir yerdə istifadə edə bilərik və ona lazım olan dəyərləri verə bilərik. Məsələn rəngini dəyişdirə, istədiyimiz ölçüdə böyüdüb-kiçildə, istədiyimiz yerdə saxlaya və.s edə bilərik
+
+//Day5
+1). Flex olub: Cunki funksionalligi coxdur. Isimizi rahatlasdirir;
+2). Indiyene  kimi oyrendiklerim ile sade bir veb sayt kodlaya bilerem;
